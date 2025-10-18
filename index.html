@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Neumorphic Digital Clock</title>
+  <link rel="stylesheet" href="style.css">
+  
+  <!-- Add this style block for the footer -->
+  <style>
+    footer {
+      background-color: #e0e5ec;  /* Neuromorphic background color */
+      padding: 20px 30px;
+      border-radius: 15px;
+      box-shadow: 
+        9px 9px 16px #a3b1c6,  /* Soft shadow for depth */
+        -9px -9px 16px #ffffff;  /* Light highlight for neumorphic effect */
+      text-align: left;  /* Left alignment */
+      color: #4a5568;  /* Text color */
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      font-size: 14px;
+      margin: 40px auto;  /* Center with top/bottom spacing */
+      max-width: 600px;  /* Match clock width */
+      position: relative;
+      z-index: 1;
+    }
+  </style>
+</head>
+<body>
+  <!-- Main clock container -->
+  <div class="clock">
+    <!-- Hour strip -->
+    <div class="hr">
+      <!-- First digit of hour -->
+      <div class="strip">
+        <div class="number">0</div>
+        <div class="number">1</div>
+        <div class="number">2</div>
+      </div>
+      <!-- Second digit of hour -->
+      <div class="strip">
+        <div class="number">0</div>
+        <div class="number">1</div>
+        <div class="number">2</div>
+        <div class="number">3</div>
+        <div class="number">4</div>
+        <div class="number">5</div>
+        <div class="number">6</div>
+        <div class="number">7</div>
+        <div class="number">8</div>
+        <div class="number">9</div>
+      </div>
+    </div>
+    <!-- Minute strip -->
+    <div class="min">
+      <!-- First digit of minutes -->
+      <div class="strip">
+        <div class="number">0</div>
+        <div class="number">1</div>
+        <div class="number">2</div>
+        <div class="number">3</div>
+        <div class="number">4</div>
+        <div class="number">5</div>
+      </div>
+      <!-- Second digit of minutes -->
+      <div class="strip">
+        <div class="number">0</div>
+        <div class="number">1</div>
+        <div class="number">2</div>
+        <div class="number">3</div>
+        <div class="number">4</div>
+        <div class="number">5</div>
+        <div class="number">6</div>
+        <div class="number">7</div>
+        <div class="number">8</div>
+        <div class="number">9</div>
+      </div>
+    </div>
+    <!-- Seconds strip -->
+    <div class="sec">
+      <!-- First digit of seconds -->
+      <div class="strip">
+        <div class="number">0</div>
+        <div class="number">1</div>
+        <div class="number">2</div>
+        <div class="number">3</div>
+        <div class="number">4</div>
+        <div class="number">5</div>
+      </div>
+      <!-- Second digit of seconds -->
+      <div class="strip">
+        <div class="number">0</div>
+        <div class="number">1</div>
+        <div class="number">2</div>
+        <div class="number">3</div>
+        <div class="number">4</div>
+        <div class="number">5</div>
+        <div class="number">6</div>
+        <div class="number">7</div>
+        <div class="number">8</div>
+        <div class="number">9</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Updated footer with neuromorphic styling -->
+  <footer>
+    <p>&copy; 2025 RAJAH</p>
+  </footer>
+
+  <!-- Link to the JavaScript file -->
+  <script src="main.js"></script>
+</body>
+</html>
